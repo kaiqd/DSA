@@ -15,7 +15,7 @@ class Solution:
                 l = r
 
         res += ' '
-        res += s[l:r + 2][::-1]
+        res += s[l:r + 1][::-1]
         return res[1:]
     
     print(reverseWords_manual("Testando Solucao"))
